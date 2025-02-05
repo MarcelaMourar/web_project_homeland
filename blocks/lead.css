@@ -1,0 +1,73 @@
+.lead {
+  font-family: "Inter";
+  align-items: center;
+  flex-direction: column;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.lead__title {
+  font-weight: 900;
+  font-size: 96px;
+  max-width: 720px;
+  margin: 90px auto 32px;
+  line-height: 1.04;
+  text-align: center;
+}
+
+.lead__subtitle {
+  font-weight: 400;
+  max-width: 720px;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lead__image-conteiner {
+  max-width: 984px;
+  margin: 64px auto 0;
+  display: block;
+}
+
+.lead__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 530px;
+    font-size: 75px;
+    line-height: 1.05;
+  }
+
+  .lead__image-conteiner {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-widht: 320px) {
+  .lead {
+    max-width: 288px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .lead__title {
+    max-width: 228px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .lead__subtitle {
+    max-width: 228px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}

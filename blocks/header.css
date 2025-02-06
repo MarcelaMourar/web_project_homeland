@@ -10,9 +10,11 @@
   width: 100%;
 }
 
-@media screen and (max-widht: 320px) {
+@media screen and (max-width: 320px) {
   .header__logo {
-    max-width: 188px;
-    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 188px;
   }
 }

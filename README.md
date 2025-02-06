@@ -7,4 +7,4 @@ Este projeto é uma página web que apresenta informações sobre a localizaçã
 
 Uma descrição das tecnologias e técnicas utilizadas: As tecnologias utilizadas incluem HTML e CSS para uma experiência de navegação responsiva. Foi utilizado Flexbox e grid css para um layount responsivo e adaptavel a diferentes telas e também o media queries para ajustar o design para dispositivos moveis e fontes personalizadas para uma melhor experiencia ao usuario.
 
-O link para o GitHub Pages
+O link para o GitHub Pages: https://github.com/MarcelaMourar/web_project_homeland

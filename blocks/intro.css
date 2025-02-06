@@ -16,21 +16,21 @@
   line-height: 1.41;
 }
 
-@media screen and (max-widht: 320px) {
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0 16px;
+  }
   .intro__title {
-    max-width: 288px;
     line-height: 1.09;
     font-size: 32px;
   }
 
   .intro__subtittle {
-    max-width: 288px;
     font-size: 24px;
     line-height: 1.25;
   }
 
   .intro__typography {
-    max-width: 288px;
     font-size: 16px;
     line-height: 1.63;
   }

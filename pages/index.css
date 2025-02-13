@@ -5,3 +5,67 @@
 @import url(../blocks/lead.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  padding: 48px;
+  margin-top: 118px;
+  margin-bottom: 92px;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "title artist"
+    "image paragraph"
+    "button paragraph";
+  gap: 20px;
+}
+.place__title {
+  font-weight: 900;
+  font-size: 72px;
+  max-width: 460px;
+  line-height: 1.05;
+  grid-area: title;
+}
+
+.place__description {
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 484px;
+}
+
+.place__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 484px;
+  grid-area: paragraph;
+}
+.place__image {
+  max-width: 460px;
+  grid-area: image;
+}
+
+.place__artist {
+  grid-area: artist;
+  align-self: end;
+}
+
+.place__button {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  border-radius: 4px;
+  width: max-content;
+  height: max-content;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 13px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  grid-area: button;
+}

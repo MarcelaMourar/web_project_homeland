@@ -49,11 +49,11 @@
   gap: 10px;
 }
 
-.place_artist-heading {
+.place__artist-heading {
   color: rgba(170, 170, 170, 1);
 }
 
-.place_artist-name {
+.place__artist-name {
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   line-height: 1.2;

@@ -1,3 +1,7 @@
+.places {
+  display: block;
+  padding: 0 148px;
+}
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -6,24 +10,29 @@
     "title artist"
     "image paragraph"
     "button paragraph";
-  gap: 20px;
+  gap: 48px 40px;
 }
 .place__title {
+  font-family: "Inter";
   font-weight: 900;
   font-size: 72px;
   max-width: 460px;
   line-height: 1.05;
   grid-area: title;
+  margin: 90px 0 auto;
 }
 
 .place__description {
+  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   max-width: 484px;
   grid-area: paragraph;
+  margin: 90px 0 auto;
 }
 
 .place__paragraph {
+  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   max-width: 484px;
@@ -33,6 +42,7 @@
   max-width: 460px;
   grid-area: image;
   box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+  margin: 90px 0 auto;
 }
 
 .place__image:hover {
@@ -40,6 +50,7 @@
 }
 
 .place__artist {
+  font-family: "Inter";
   font-weight: 400;
   font-size: 12px;
   grid-area: artist;
@@ -71,6 +82,7 @@
   padding: 13px 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   grid-area: button;
+  margin: auto 0 auto;
 }
 
 .place__button:hover {
